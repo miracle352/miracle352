@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="58" height="20" viewBox="0 0 58 20" role="img" aria-label="LIVE">
+<title>LIVE</title>
+<rect width="58" height="20" rx="10" fill="#16804f"/>
+<circle cx="12" cy="10" r="3.5" fill="#7ff0bb" opacity=".5">
+    <animate attributeName="r" values="3.5;7;3.5" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".55;0;.55" dur="2s" repeatCount="indefinite"/></circle><circle cx="12" cy="10" r="3.5" fill="#7ff0bb"/>
+<text x="22" y="14" font-family="ui-monospace,'SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="11" font-weight="700" letter-spacing=".8" fill="#fff">LIVE</text>
+</svg>

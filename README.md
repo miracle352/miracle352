@@ -1,60 +1,87 @@
 <p align="center">
-  <img src="./assets/miracle-systems-banner.png" alt="An abstract map of engineered systems crossing a decision boundary" width="100%" />
+  <img src="./assets/receipt.svg" width="420" alt="A receipt printing out of a thermal printer. Miracle Iyanuoluwa, builder-operator across AI, product and Web3. Items: Choiceproof, LastCopy and Blotter are live; FlyTab runs locally. Claims without evidence: 0. Floats in money math: 0.00. Total: proof attached. Stamped VERIFIED. The barcode scans to github.com/miracle352." />
 </p>
 
-# Miracle Iyanuoluwa
+<h3 align="center">I build software that keeps its receipts.</h3>
 
-### I build software for decisions, money, and communities.
+<p align="center">
+  AI decisions you can rerun. Tablets you can wipe with a certificate.<br />
+  Data leaks you can prove closed. Bills settled to the last unit.
+</p>
 
-Builder-operator working across AI systems, product engineering, and Web3. I turn complicated workflows into products people can inspect, test, and actually use.
-
-<p>
-  <a href="https://miracle-20cp.onrender.com/">Portfolio</a>&nbsp;&nbsp;
-  <a href="https://x.com/0xMiiracle">X</a>&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/miracle352/">LinkedIn</a>&nbsp;&nbsp;
+<p align="center">
+  <a href="https://miracle-20cp.onrender.com/">Portfolio</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://x.com/0xMiiracle">X</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/miracle352/">LinkedIn</a>&nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="mailto:miracledoxxed@gmail.com">Email</a>
 </p>
 
-## Selected work
+<br />
 
-### [Choiceproof](https://github.com/miracle352/choiceproof)
+## Itemized
 
-A bounded AI decision workbench powered by OpenServ SERV Reasoning v2. It records exact inputs and responses, lets a human label changed answers, and reruns saved cases against candidate revisions.
+Every project here ends in something you can check. This is what each one hands you.
 
-`Next.js` `TypeScript` `PostgreSQL` `Vitest` `AI evaluation`
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/miracle352/choiceproof">Choiceproof</a>&nbsp; <img src="./assets/state-live.svg" height="20" alt="Live" /></h3>
+      <b>Asks:</b> did the AI change its answer, and did you mean it to?<br /><br />
+      <b>Receipt:</b> the exact inputs, both responses, a human label, and saved cases you can rerun against the next revision.<br /><br />
+      <code>Next.js</code> <code>PostgreSQL</code> <code>Vitest</code> <code>OpenServ</code><br /><br />
+      <a href="https://choiceproof.vercel.app/">Open it</a> · <a href="https://github.com/miracle352/choiceproof#readme">How it works</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/miracle352/lastcopy">LastCopy</a>&nbsp; <img src="./assets/state-live.svg" height="20" alt="Live" /></h3>
+      <b>Asks:</b> is it safe to wipe this field-survey tablet?<br /><br />
+      <b>Receipt:</b> one answer per device (safe to wipe, recover first, or hold) with a hashed clearance certificate anyone can re-check in the browser.<br /><br />
+      <code>Python</code> <code>Agents</code> <code>Nemotron</code> <code>Zetaris</code><br /><br />
+      <a href="https://lastcopy-five.vercel.app">Open it</a> · <a href="https://lastcopy-five.vercel.app/verify">Verify a certificate</a> · <a href="https://github.com/miracle352/lastcopy#readme">Code</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/miracle352/blotter">Blotter</a>&nbsp; <img src="./assets/state-live.svg" height="20" alt="Live" /></h3>
+      <b>Asks:</b> did people's personal data leak into production logs, and whose?<br /><br />
+      <b>Receipt:</b> a confidential incident record (how many people, which countries, since which merge request) and a Semgrep rule proven against the leak.<br /><br />
+      <code>Python</code> <code>FastAPI</code> <code>GitLab Duo</code> <code>Semgrep</code><br /><br />
+      <a href="https://blotter-prod.onrender.com/">Closed incidents</a> · <a href="https://github.com/miracle352/blotter#readme">Code</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/miracle352/flynet-tab-split">FlyTab</a>&nbsp; <img src="./assets/state-local.svg" height="20" alt="Runs locally" /></h3>
+      <b>Asks:</b> who owes what at this table?<br /><br />
+      <b>Receipt:</b> one payment request per seat, paid straight to the venue, with BigInt money math and a full activity ledger.<br /><br />
+      <code>Next.js</code> <code>TypeScript</code> <code>OAuth PKCE</code> <code>BigInt</code><br /><br />
+      <a href="https://github.com/miracle352/flynet-tab-split#readme">Run it locally</a>
+    </td>
+  </tr>
+</table>
 
-[Live product](https://choiceproof.vercel.app/) · [Read the technical overview](https://github.com/miracle352/choiceproof#readme)
-
-### [FlyTab](https://github.com/miracle352/flynet-tab-split)
-
-A restaurant bill-splitting flow settled in FLY and anchored to a real check-in. Each diner pays the venue directly, with live quotes, exact BigInt money handling, refunds, and a complete activity ledger.
-
-`Next.js` `TypeScript` `OAuth + PKCE` `Wallet flows` `BigInt accounting`
-
-[Explore the repository](https://github.com/miracle352/flynet-tab-split#readme)
-
-## How I work
+## The fine print
 
 - **Evidence over claims.** Inputs, outputs, state changes, and limits should be visible.
 - **Exactness where it matters.** Money stays out of floating-point math. AI decisions stay inside explicit boundaries.
-- **Honest product states.** Mock, live, private, published, complete, and planned are clearly separated.
+- **Honest product states.** Mock, live, private, published, complete, and planned are clearly separated, including the labels on this page.
 
-## Across the stack
+## Line items
 
-| Product engineering | AI and data | Web3 and operations |
-| --- | --- | --- |
-| TypeScript, Next.js, React | Evaluation workflows, PostgreSQL | Solidity, wallets, payment flows |
-| Python, Django | Human review, regression tests | Community growth, partnerships |
-| API design, testing, deployment | Evidence capture, decision boundaries | Launch operations, technical content |
+```text
+BUILD    TypeScript · Next.js · React · Python · Django · FastAPI
+AI       evaluation loops · multi-agent pipelines · human review
+DATA     PostgreSQL · evidence capture · regression tests
+CHAIN    Solidity · wallets · payment flows · BigInt accounting
+SHIP     API design · CI/CD · Semgrep · Vercel · Render
+PEOPLE   community growth · launches · partnerships · technical writing
+```
 
-## Beyond the code
+## Before the code
 
-I have spent 3+ years helping Web3 teams grow communities, coordinate launches, build partnerships, and explain technical products clearly. That operator background shapes the software I build: the workflow matters as much as the interface.
+I spent 3+ years helping Web3 teams grow communities, coordinate launches, build partnerships, and explain technical products clearly. That operator background is why the workflow matters to me as much as the interface. [See the Web3 operator portfolio →](https://miracle-20cp.onrender.com/)
 
-[View the Web3 operator portfolio](https://miracle-20cp.onrender.com/)
+## Now printing
 
-## Now
+Public prototypes around trustworthy AI decisions, agent workflows, and on-chain products. Open to focused collaborations where the problem is real and the evidence can be shown.
 
-Building public prototypes around trustworthy AI decisions, agent workflows, and on-chain products. Open to focused collaborations where the problem is real and the evidence can be shown.
+<br />
 
-<sub>Lagos, Nigeria · Available across global time zones</sub>
+<p align="center"><sub>Lagos, Nigeria · available across time zones · reprinted whenever something ships</sub></p>
